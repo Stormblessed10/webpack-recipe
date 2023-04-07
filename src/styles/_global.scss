@@ -1,0 +1,15 @@
+body {
+    background-color: blueviolet;
+    color: rgb(45, 12, 167);
+    font-size: 100px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    font-size: 1.5rem;
+}
