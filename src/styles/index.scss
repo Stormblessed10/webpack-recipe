@@ -1,1 +1,6 @@
-@use 'global'
+
+@use "variables";
+@use "global";
+@use "header";
+@use "search-results";
+@use "recipe";

@@ -1,0 +1,50 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10rem;
+    padding: 0 4rem;
+    background-color: var(--bg-color);
+
+    &__logo {
+        height: 4.6rem;
+    }
+
+    &__search {
+        border-radius: 10rem;
+        background: #fff;
+        padding-left: 3rem;
+
+        display: flex;
+        justify-content: center;
+    }
+    
+    &__search-bar {
+        width: 30rem;
+        border: none;
+        outline: none;
+    }
+
+    &__search-btn {
+        border-radius: 10rem;
+        padding: 1.6rem 4rem;
+        border: none;
+        background: var(--gradient-main);
+    }
+
+    &__buttons {
+        height: 100%;
+    }
+
+    &__buttons-btn {
+        height: 100%;
+        border: none;
+        background: transparent;
+        font-weight: 700;
+        padding: 0 1.5rem;
+    }
+
+    &__buttons-btn:hover {
+        background: var(--gradient-main);
+    }
+}

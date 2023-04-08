@@ -1,0 +1,35 @@
+.search-results {
+    padding: 3rem 0;
+
+    .results {
+        list-style-type: none;
+
+        &__preview {
+
+        }
+
+        &__preview-link:link, &__preview-link:visited {
+            padding: 1.5rem 3.25rem;
+            display: grid;
+            grid-template-columns: 5.8rem 1fr;
+            gap: 1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        &__preview-img {
+            grid-row: 1/3;
+        }
+
+        &__preview-title {
+            font-size: var(--fz-sm);
+            color: var(--main-color);
+            font-weight: 700;
+            white-space: nowrap;
+        }
+
+        &__preview-text {
+
+        }
+    }
+}

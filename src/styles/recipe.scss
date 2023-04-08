@@ -1,0 +1,56 @@
+.recipe {
+    background: var(--bg-color);
+
+    &__figure {
+        position: relative;
+    }
+
+    &__title {
+        font-size: 3.2rem;
+        font-weight: 700;
+        padding: 1.2rem 2rem;
+
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+
+        transform: translate(-50%,20%) skewY(-6deg);
+        background: var(--gradient-main);
+
+    }
+
+    &__details {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        padding: 7.5rem 8rem 3.5rem;
+    }
+
+    &__info {
+
+    }
+
+    &__button {
+
+    }
+
+    &__bookmark {
+        margin-left: auto;
+    }
+
+    &__ingredients {
+
+    }
+
+    &__ingredients-list {
+
+    }
+
+    &__ingredient {
+        list-style-type: none;
+    }
+
+    &__source {
+
+    }
+}
